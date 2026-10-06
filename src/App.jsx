@@ -4,6 +4,8 @@ import { ScrollTrigger, SplitText } from 'gsap/all'
 import { Route, Routes } from 'react-router-dom'
 import FromTo from './components/from-to'
 import Navbar from './components/navbar'
+import { LayoutExample } from './components/pin-layout/pinned-layout'
+import { ScrollTriggerExample } from './components/scroll-trigger/scroll-trigger'
 
 gsap.registerPlugin(ScrollTrigger, SplitText)
 
@@ -14,6 +16,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/from-to' element={<FromTo />} />
+        <Route path='/pined-layout' element={<LayoutExample />} />
+        <Route path='/scroll-trigger' element={<ScrollTriggerExample />} />
       </Routes>
     </div>
 
