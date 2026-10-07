@@ -10,10 +10,10 @@ import ImageGallary from './components/img-gallary/image-gallary'
 
 gsap.registerPlugin(ScrollTrigger, SplitText)
 
+
 function App() {
   return (
     <div className='overflow-hidden '>
-      <p className='text-4xl font-bold text-purple-700 flex-center my-10 '>welcome to GSAP! Animation..</p>
       <Navbar />
       <Routes>
         <Route path='/from-to' element={<FromTo />} />
