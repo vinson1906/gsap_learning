@@ -16,6 +16,10 @@ function Navbar() {
             label: 'Pinned Layout',
             link: '/pined-layout'
         },
+        {
+            label:"Image Gallary",
+            link:"/image-gallay"
+        }
         
     ]
 
