@@ -95,5 +95,4 @@ function ImageGallary() {
         </>
     );
 }
-
 export default ImageGallary;
