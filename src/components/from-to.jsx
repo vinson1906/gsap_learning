@@ -24,7 +24,7 @@ function FromTo() {
             yoyo: true,
             repeat: -1,
             borderRadius: '100%',
-            ease:'power1.inOut',
+            ease:'elastic.out(1, 0.3)',
             scale:0.5,
             rotate:360
         })
@@ -36,6 +36,7 @@ function FromTo() {
             rotation:0,
             borderRadius:'0%',
             scale:1
+
         },{
             x:3000,
             rotation:360,
@@ -44,7 +45,7 @@ function FromTo() {
             duration:2,
             repeat:-1,
             yoyo:true,
-            ease:'power1.inOut'
+            ease:'bounce.in'
         })
     },[])
 
